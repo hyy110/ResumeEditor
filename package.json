@@ -53,10 +53,13 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,tsx,ts}": [
-      "npm run lint:script"
+      "pnpm run lint:script"
     ],
     "**/*.{scss,css}": [
-      "npm run lint:style"
+      "pnpm run lint:style"
+    ],
+    "*": [
+      "pnpm run format-check-all"
     ]
   }
 }

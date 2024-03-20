@@ -20,7 +20,7 @@ module.exports = {
   },
   settings: {
     'prettier/prettier': {
-      'endOfLine': 'off'
+      endOfLine: 'off'
     }
-  },
+  }
 };
