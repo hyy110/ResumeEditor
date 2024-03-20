@@ -17,5 +17,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true }
     ]
-  }
+  },
+  settings: {
+    'prettier/prettier': {
+      'endOfLine': 'off'
+    }
+  },
 };
